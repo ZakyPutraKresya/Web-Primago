@@ -10,4 +10,14 @@ class DashboardController extends Controller
     {
         return view('service');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function testimoni()
+    {
+        return view('testimonial');
+    }
 }

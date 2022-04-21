@@ -16,10 +16,9 @@
                     </ul>
                 </li>
                 <li><a href="{{route('service')}}">Services</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="{{route('testimoni')}}">Testimonial</a></li>
 
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="{{route('contact')}}">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

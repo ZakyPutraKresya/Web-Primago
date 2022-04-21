@@ -18,3 +18,5 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 Route::get('/service', [DashboardController::class, 'services'])->name('service');
+Route::get('/contact', [DashboardController::class, 'contact'])->name('contact');
+Route::get('/testimonial', [DashboardController::class, 'testimoni'])->name('testimoni');
